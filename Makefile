@@ -44,16 +44,6 @@ SRCS += ft_putchar_fd.c
 SRCS += ft_putstr_fd.c
 SRCS += ft_putendl_fd.c
 SRCS += ft_putnbr_fd.c
-SRCS += ft_printf.c
-SRCS += ft_printunsigned.c
-SRCS += ft_printchar.c
-SRCS += ft_printnbr.c
-SRCS += ft_printpercent.c
-SRCS += ft_printstr.c
-SRCS += ft_printhexa.c
-SRCS += ft_printptr.c
-SRCS += get_next_line.c
-SRCS += get_next_line_utils.c
 
 SRCS_BONUS += ft_lstnew.c
 SRCS_BONUS += ft_lstadd_front.c
@@ -63,8 +53,6 @@ SRCS_BONUS += ft_lstadd_back.c
 SRCS_BONUS += ft_lstdelone.c
 SRCS_BONUS += ft_lstclear.c
 SRCS_BONUS += ft_lstiter.c
-SRCS_BONUS += get_next_line_bonus.c
-SRCS_BONUS += get_next_line_utils_bonus.c
 
 OBJS = $(SRCS:.c=.o)
 
